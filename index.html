@@ -18,7 +18,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
     <style>
-        /* ============ ROOT VARIABLES ============ */
         :root {
             --primary-orange: #ff6600;
             --primary-orange-dark: #cc5200;
@@ -44,7 +43,6 @@
             --gradient-dark: linear-gradient(135deg, var(--dark-gray), var(--medium-gray));
         }
 
-        /* ============ GLOBAL RESET & BASE ============ */
         *, *::before, *::after {
             margin: 0;
             padding: 0;
@@ -123,7 +121,6 @@
             margin-bottom: 0.5rem;
         }
 
-        /* ============ UTILITY CLASSES ============ */
         .container {
             width: 90%;
             max-width: 1400px;
@@ -220,7 +217,6 @@
             margin-bottom: 2rem;
         }
 
-        /* ============ LOADING ANIMATION (FIXED) ============ */
         .loading-overlay {
             position: fixed;
             top: 0;
@@ -249,7 +245,6 @@
             100% { transform: rotate(360deg); }
         }
 
-        /* ============ NAVIGATION ============ */
         .navbar {
             position: fixed;
             top: 0;
@@ -306,7 +301,6 @@
             cursor: pointer;
         }
 
-        /* ============ HERO SECTION ============ */
         .hero {
             height: 100vh;
             background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.8)), url('https://www.image-line.com/media/landing/flstudio21/hero-bg.jpg') center/cover no-repeat;
@@ -380,7 +374,6 @@
             font-weight: bold;
         }
 
-        /* ============ DOWNLOAD SECTION ============ */
         #download {
             background: var(--gradient-dark);
             padding: var(--py-lg);
@@ -456,7 +449,6 @@
             font-size: 1.2rem;
         }
 
-        /* ============ FOOTER & IMPROVEMENTS ============ */
         footer {
             background: linear-gradient(180deg, rgba(17,17,17,1), rgba(34,34,34,1));
             padding: 2.5rem 0;
@@ -475,7 +467,6 @@
         .socials a { color: #ddd; font-size:1.2rem; }
         .small { font-size:0.9rem; color:#aaa; }
 
-        /* responsive small fixes */
         @media (max-width: 900px) {
             .nav-menu { display: none; }
             .nav-toggle { display: inline-block; }
@@ -483,19 +474,16 @@
             .hero h2 { font-size: 1.8rem; }
         }
 
-        /* a little accessibility focus ring */
         a:focus, button:focus { box-shadow: 0 0 0 3px rgba(255,102,0,0.25); }
 
     </style>
 </head>
 <body>
 
-    <!-- LOADING SCREEN - FIXED -->
     <div class="loading-overlay" id="loading">
         <div class="loading-spinner"></div>
     </div>
 
-    <!-- NAVIGATION -->
     <nav class="navbar" role="navigation" aria-label="Main Navigation">
         <div class="container nav-container">
             <a href="https://www.image-line.com/" target="_blank" rel="noopener noreferrer" aria-label="FL Studio official site">
@@ -515,7 +503,6 @@
         </div>
     </nav>
 
-    <!-- HERO -->
     <section id="home" class="hero">
         <div class="hero-content">
             <h1>FL Studio 2025 [CRACKED]</h1>
@@ -526,14 +513,10 @@
                 <span class="badge">Stem AI</span>
                 <span class="badge">500 Tracks</span>
             </div>
-            <!-- main official download link retained -->
             <a href="https://ouo.io/SM3feTV" target="_blank" rel="noopener noreferrer" class="btn">Download Now <i class="fas fa-download" style="margin-left:8px"></i></a>
-            <!-- open official site button -->
             <a href="https://www.image-line.com/" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="margin-left:12px;">Official Site <i class="fas fa-external-link-alt" style="margin-left:8px"></i></a>
         </div>
     </section>
-
-    <!-- DOWNLOAD, FEATURES (50+), WHATS NEW, GALLERY, TUTORIALS, FAQ, COMMUNITY, NEWSLETTER, FOOTER -->
     <section id="download">
         <div class="container py-lg">
             <div class="download-hero">
@@ -564,7 +547,6 @@
         </div>
     </section>
 
-    <!-- SMALL FEATURES PREVIEW (kept concise for brevity) -->
     <section id="features" class="py-lg">
         <div class="container">
             <h2 class="section-title">50+ Features</h2>
@@ -591,8 +573,6 @@
             </div>
         </div>
     </section>
-
-    <!-- WHATS NEW -->
     <section id="whats-new" class="py-lg" style="background:var(--gradient-dark);">
         <div class="container">
             <h2 class="section-title">What's New</h2>
@@ -607,7 +587,6 @@
         </div>
     </section>
 
-    <!-- GALLERY / TUTORIALS / FAQ / COMMUNITY PREVIEWS -->
     <section id="gallery" class="py-lg">
         <div class="container">
             <h2 class="section-title">Gallery</h2>
@@ -646,7 +625,6 @@
         </div>
     </section>
 
-    <!-- SIMPLE NEWSLETTER (frontend-only) -->
     <section id="newsletter" class="py-lg" style="background:linear-gradient(180deg,#0f0f0f,#171717);">
         <div class="container text-center">
             <h2 class="section-title">Stay Updated</h2>
@@ -659,7 +637,6 @@
         </div>
     </section>
 
-    <!-- FOOTER -->
     <footer>
         <div class="container">
             <div class="footer-grid">
@@ -688,7 +665,6 @@
                     <h4 class="text-orange">Subscribe</h4>
                     <p class="small">Add your email to get notified — integrate with your mailing system.</p>
                     <div class="socials">
-                        <!-- keep as placeholders: insert official social links if desired -->
                         <a href="https://twitter.com/imagineline" target="_blank" rel="noopener noreferrer" aria-label="Image-Line Twitter"><i class="fab fa-twitter"></i></a>
                         <a href="https://www.facebook.com/imageline" target="_blank" rel="noopener noreferrer" aria-label="Image-Line Facebook"><i class="fab fa-facebook"></i></a>
                         <a href="https://www.youtube.com/user/imagelinesoftware" target="_blank" rel="noopener noreferrer" aria-label="Image-Line YouTube"><i class="fab fa-youtube"></i></a>
@@ -703,7 +679,6 @@
     </footer>
 
     <script>
-        // === FIXED LOADING ===
         const loading = document.getElementById('loading');
         let loaded = false;
 
@@ -722,7 +697,6 @@
             }
         }, 3000);
 
-        // Mobile Menu Toggle
         const navToggle = document.getElementById('navToggle');
         const navMenu = document.getElementById('navMenu');
         navToggle.addEventListener('click', () => {
@@ -740,7 +714,6 @@
             }
         });
 
-        // Newsletter (frontend placeholder)
         const newsletterForm = document.getElementById('newsletterForm');
         newsletterForm.addEventListener('submit', (e) => {
             e.preventDefault();
@@ -756,12 +729,10 @@
             newsletterForm.reset();
         });
 
-        // Add external link icon title for screen readers
         document.querySelectorAll('a[target="_blank"]').forEach(a => {
             a.setAttribute('title', (a.getAttribute('title') || '') + ' (opens in a new tab)');
         });
 
-        // Improve keyboard accessibility for navToggle
         navToggle.addEventListener('keydown', (e) => {
             if (e.key === 'Enter' || e.key === ' ') {
                 e.preventDefault();
